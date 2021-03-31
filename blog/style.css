@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+
+
+body {
+  background: #FE91AE;
+  margin: 0px;
+}
+
+
+h1, h2 {
+  font-family: "satisfy", cursive; 
+  text-align: center;
+  color: #FE91AE 
+}
+
+h3{
+  font-family: "satisfy", cursive;
+  text-align: center; 
+  color: white;
+}
+
+
+img{
+    width: 300px;
+  height: 300px;
+   border-radius: 300px;
+}
+
+.btn{
+  background-color: pink;
+  color: white;
+  padding: 0px  0px;
+  border-radius: 300px;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  width: 50%;
+  display: flex;
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+.hero {
+  height: 70vh;
+  background-color: #FE91AE ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+    background-image: URL("https://images.unsplash.com/photo-1528047128849-2382ff646073?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+
+.card { 
+   border: 5px solid white;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 1px 1px pink;
+  align-items: center;
+}
+
+.card2 { 
+  margin: 30px;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: pink;
+}
+
+.card3 { 
+  margin: 10px;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: pink;
+}
+
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
+
+#flex{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+}
+
+
+.location-image img {
+  border-radius: 0px;
+  height : 20%;
+  width : 200px; 
+}
