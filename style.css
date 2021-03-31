@@ -1,1 +1,81 @@
-h1{ color: pink;}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background: #FFF5F8
+    ;
+  font-family: "lato";
+}
+
+h1, h2 {
+  font-family: 'Anton', sans serif; 
+}
+
+h1 {
+  color: #DE008B ;
+  text-align:center;
+}
+
+h2 {
+  color: #FE91AE;
+  text-align: center;
+}
+.card1 { 
+   border: 5px solid white;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 1px 1px pink
+}
+
+img{
+    width: 300px;
+  height: 300px;
+   border-radius: 200px;
+  border: 5px solid #FE91AE ;
+}
+
+.btn {
+  background-color: #DE008B;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.card {
+  border: 5px solid white;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+.center{
+  text-align: center;
+}
+
+.description{
+  font-style: italic
+}
+
+.passion {
+  background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p1/138506-passion-pack-vecteur-de-fruits-gratuit-vectoriel.jpg);
+  background-size: cover;
+  color: black;
+ 
+  
+}
+
+.passion h2{ 
+text-shadow: 1px 1px 1px black;
+}
+
+.transparent-card{
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  padding: 12px;
+  width: 50%;
+  margin: 0 auto;
+}
